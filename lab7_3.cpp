@@ -3,16 +3,16 @@
 #include<string>
 using namespace std ;
  int main(){
-     int age , high ,asset ;
+     int age , tall ,asset ;
      cout << "age = ";
      cin >> age;
      if(age <=20){
-         cout << "high =";
-         cin >> high ;
-         if(high <=159){
+         cout << "tall =";
+         cin >> tall ;
+         if(tall <=159){
              cout <<"status = UNFRIEND" ;
          }
-         else if(high <= 174){
+         else if(tall <= 174){
              cout <<"status = FRIEND" ;
             return 0;
          }
